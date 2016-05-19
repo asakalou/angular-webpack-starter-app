@@ -1,0 +1,26 @@
+@import "~bootstrap/less/mixins.less";
+@import "../../styles/variables.less";
+
+.panel-heading {
+
+  .panel-title {
+    display: inline-block;
+    float: left;
+  }
+
+  .panel-controls {
+    float: right;
+  }
+
+  .clearfix();
+
+}
+
+.widget-panel-expanded {
+  position: fixed;
+  top: @navbar-height;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+}

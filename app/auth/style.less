@@ -1,0 +1,36 @@
+@import "~bootstrap/less/variables.less";
+@import "../styles/variables.less";
+
+.forgot-form {
+  .auth-form;
+  max-width: 600px;
+}
+
+.login-form {
+  .auth-form;
+}
+
+.reset-form {
+  .auth-form;
+  max-width: 600px;
+}
+
+.auth-form() {
+  max-width: 400px;
+  margin: 20px auto;
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-title {
+    margin-bottom: 20px;
+  }
+
+  .has-error .help-block {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    font-size: @font-size-error-helpblock;
+  }
+}
+
